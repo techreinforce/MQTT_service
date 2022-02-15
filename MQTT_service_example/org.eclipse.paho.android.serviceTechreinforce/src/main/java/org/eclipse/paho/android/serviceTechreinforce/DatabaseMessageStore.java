@@ -13,7 +13,7 @@
  *   Contributors:
  *     James Sutton - Removing SQL Injection vunerability (bug 467378)
  */
-package org.eclipse.paho.android.service;
+package org.eclipse.paho.android.serviceTechreinforce;
 
 import java.util.Iterator;
 

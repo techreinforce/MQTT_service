@@ -10,7 +10,7 @@
  * and the Eclipse Distribution License is available at 
  *   http://www.eclipse.org/org/documents/edl-v10.php.
  */
-package org.eclipse.paho.android.service;
+package org.eclipse.paho.android.serviceTechreinforce;
 
 import java.io.File;
 import java.util.Arrays;
@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.eclipse.paho.android.service.MessageStore.StoredMessage;
+import org.eclipse.paho.android.serviceTechreinforce.MessageStore.StoredMessage;
 import org.eclipse.paho.client.mqttv3.DisconnectedBufferOptions;
 import org.eclipse.paho.client.mqttv3.IMqttActionListener;
 import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;

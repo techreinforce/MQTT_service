@@ -13,7 +13,7 @@
  * Contributors:
  *   James Sutton - isOnline Null Pointer (bug 473775)
  */
-package org.eclipse.paho.android.service;
+package org.eclipse.paho.android.serviceTechreinforce;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

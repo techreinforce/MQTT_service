@@ -9,7 +9,7 @@ android {
         minSdkVersion 9
         targetSdkVersion 31
 
-        testApplicationId "org.eclipse.paho.android.service.test"
+        testApplicationId "org.eclipse.paho.android.serviceTechreinforce.test"
     }
     buildTypes {
         release {
@@ -74,8 +74,8 @@ task("copyLibs", type: Copy) {
 task("renameReleaseAAR", type: Copy) {
     from("$buildDir/outputs/aar")
     into("$buildDir/outputs/aar/")
-    include('org.eclipse.paho.android.service-debug.aar')
-    rename('org.eclipse.paho.android.service-debug.aar', 'org.eclipse.paho.android.sample' + '-' + '1.1.1' + '.aar')
+    include('org.eclipse.paho.android.serviceTechreinforce-debug.aar')
+    rename('org.eclipse.paho.android.serviceTechreinforce-debug.aar', 'org.eclipse.paho.android.sample' + '-' + '1.1.1' + '.aar')
 }
 
 // Generate Plain Jar Version of library (good for legacy users)
@@ -96,7 +96,7 @@ task("generateJavaDocJar", type: Jar, dependsOn: ('1.1.1'.endsWith('-SNAPSHOT') 
             artifact generateSourcesJar
             artifact generateLibraryJar
             artifact generateJavaDocJar
-            artifact "$buildDir/outputs/aar/" + "org.eclipse.paho.android.service" + "-" + '1.1.1' + ".aar"
+            artifact "$buildDir/outputs/aar/" + "org.eclipse.paho.android.serviceTechreinforce" + "-" + '1.1.1' + ".aar"
         }
     }
     repositories {

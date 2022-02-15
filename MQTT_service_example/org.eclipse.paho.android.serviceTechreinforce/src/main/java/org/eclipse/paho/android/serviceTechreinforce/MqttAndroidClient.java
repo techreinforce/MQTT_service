@@ -14,7 +14,7 @@
  *   Ian Craggs - ack control (bug 472172)
  *   
  */
-package org.eclipse.paho.android.service;
+package org.eclipse.paho.android.serviceTechreinforce;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -95,7 +95,7 @@ public class MqttAndroidClient extends BroadcastReceiver implements
 		MANUAL_ACK
 	}
 
-	private static final String SERVICE_NAME = "org.eclipse.paho.android.service.MqttService";
+	private static final String SERVICE_NAME = "org.eclipse.paho.android.serviceTechreinforce.MqttService";
 
 	private static final int BIND_SERVICE_FLAG = 0;
 
