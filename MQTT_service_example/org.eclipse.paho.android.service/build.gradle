@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
+//apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 31
@@ -89,7 +89,7 @@ task("generateJavaDocJar", type: Jar, dependsOn: ('1.1.1'.endsWith('-SNAPSHOT') 
     classifier = 'javadoc'
 }
 
-publishing {
+/*publishing {
     publications {
         paho(MavenPublication) {
             groupId 'org.eclipse.paho'
@@ -115,7 +115,7 @@ publishing {
             }
         }
     }
-}
+}*/
 
 
 /*task debug << {
